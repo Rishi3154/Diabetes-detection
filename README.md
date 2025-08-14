@@ -39,7 +39,7 @@ The goal is to make AI decisions **transparent, interpretable, and actionable**,
 **"The patient is NOT diabetic"** or **"The patient is diabetic"**
 
 ### 🔹 SHAP Feature Contribution
-![SHAP Summary Plot](images/shap_summary.png)
+![SHAP Summary Plot](shap_summary.png)
 
 ### 🔹 Personalized Recommendations
 - **If High BMI:** Reduce weight through diet & exercise  
