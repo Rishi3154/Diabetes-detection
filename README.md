@@ -26,20 +26,35 @@ The goal is to make AI decisions **transparent, interpretable, and actionable**,
 
 ## 📂 Project Structure
 health/
+
 ├─ src/
+
 │  └─ app.py                 # Streamlit UI
+
 ├─ models/
+
 │  ├─ diabetes_model.pkl     # pretrained model
+
 │  └─ scaler.pkl             # preprocessing scaler
+
 ├─ data/
-│  └─ diabetes.csv           # reference dataset (ignored in git ideally)
+
+│  └─ diabetes.csv           # reference dataset (usually gitignored)
+
 ├─ notebooks/
+
 │  └─ model_exploration.ipynb
+
 ├─ screenshots/
+
 │  └─ shap_summary.png
+
 ├─ requirements.txt
+
 ├─ README.md
+
 └─ .gitignore
+
 
 ## 📊 Example Output
 ### 🔹 Prediction
