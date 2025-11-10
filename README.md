@@ -47,13 +47,10 @@ The goal is to make AI decisions **transparent, interpretable, and actionable**,
 - **If Low Physical Activity:** Increase daily exercise  
 
 ## 📥 Installation & Usage
+
+### Quickstart
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/explainable-diabetes-ai.git
-cd explainable-diabetes-ai
-
-# Install dependencies
+git clone https://github.com/Rishi3154/Diabetes-detection.git
+cd Diabetes-detection
 pip install -r requirements.txt
-
-# Run the web app
 streamlit run app.py
