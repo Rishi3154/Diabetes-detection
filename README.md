@@ -48,9 +48,22 @@ The goal is to make AI decisions **transparent, interpretable, and actionable**,
 
 ## 📥 Installation & Usage
 
-### Quickstart
+## 🚀 Quickstart
+
 ```bash
+# 1) Clone
 git clone https://github.com/Rishi3154/Diabetes-detection.git
 cd Diabetes-detection
+
+# 2) Create env (recommended)
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+# 3) Install
+pip install --upgrade pip
 pip install -r requirements.txt
-streamlit run app.py
+
+# 4) Run the app
+streamlit run src/app.py
