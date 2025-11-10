@@ -25,21 +25,28 @@ The goal is to make AI decisions **transparent, interpretable, and actionable**,
 - **Web App**: Streamlit
 
 ## 📂 Project Structure
-📦 explainable-diabetes-ai
-┣ 📂 data # Dataset(s)
-┣ 📂 models # Saved trained models (.pkl)
-┣ 📂 notebook # Jupyter notebook for EDA & training
-┣ 📂 src # Source code for training & app
-┣ 📜 app.py # Main Streamlit app
-┣ 📜 req.txt # Python dependencies
-┣ 📜 README.md # Project documentation
+health/
+├─ src/
+│  └─ app.py                 # Streamlit UI
+├─ models/
+│  ├─ diabetes_model.pkl     # pretrained model
+│  └─ scaler.pkl             # preprocessing scaler
+├─ data/
+│  └─ diabetes.csv           # reference dataset (ignored in git ideally)
+├─ notebooks/
+│  └─ model_exploration.ipynb
+├─ screenshots/
+│  └─ shap_summary.png
+├─ requirements.txt
+├─ README.md
+└─ .gitignore
 
 ## 📊 Example Output
 ### 🔹 Prediction
 **"The patient is NOT diabetic"** or **"The patient is diabetic"**
 
 ### 🔹 SHAP Feature Contribution
-![SHAP Summary Plot](shap_summary.png)
+![SHAP Summary Plot](screenshots/shap_summary.png)
 
 ### 🔹 Personalized Recommendations
 - **If High BMI:** Reduce weight through diet & exercise  
